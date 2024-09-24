@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+
+<head>
+    <title>TempServer</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div><span id="temp"></span> Temperature</div>
+    <div><span id="upperTemp"></span> Upper Range</div>
+    <div><span id="lowerTemp"></span> Lower Range</div>
+    <div>AC is <span id="status"></span></div>
+    <div>Last change <span id="lastPowerChange">unknown</span></div>
+    <div>
+        <div>Temperature History</div>
+        <div id="tempGraph"></div>
+    </div>
+    <button id="butAcOn">A/C On</button>
+    <button id="butAcOff">A/C Off</button>
+    <div>
+        <input type="number" id="inUpperTemp" placeholder="Upper Temp">
+        <button id="butUpperTemp">Set Upper Temp</button>
+    </div>
+    <div>
+        <input type="number" id="inLowerTemp" placeholder="Lower Temp">
+        <button id="butLowerTemp">Set Lower Temp</button>
+    </div>
+    <div>
+        <input type="number" id="inHistoryHours" placeholder="History Hours">
+        <button id="butHistoryHours">Set History Hours</button>
+    </div>
+    <script type="module" src="script.old.js"></script>
+</body>
